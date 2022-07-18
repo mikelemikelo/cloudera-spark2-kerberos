@@ -16,7 +16,7 @@ For the image to be used, you have two options:
 
 Start the image with:
 ```
-sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -v /Users/miguelr/clouderacontainers:/src -m 12G -p 8180:8080 -p 19888:19888 -p 80:80 -p 8888:8888 -p 50070:50070 -p 50010:50010 -p 1004:1004 -p 8042:8042 -p 1006:1006 -p 7180:7180 -p 8020:8020 -p 8032:8032 -p 8990:8990 -p 21050:21050 -p 88:88 -p 88:88/udp -p 7077:7077 -p 8188:8088 mikelemikelo/cloudera-spark2-kerberos /usr/bin/docker-quickstart
+sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -v /Users/<LAPTOP_USERNAME>/clouderacontainers:/src -m 12G -p 8180:8080 -p 19888:19888 -p 80:80 -p 8888:8888 -p 50070:50070 -p 50010:50010 -p 1004:1004 -p 8042:8042 -p 1006:1006 -p 7180:7180 -p 8020:8020 -p 8032:8032 -p 8990:8990 -p 21050:21050 -p 88:88 -p 88:88/udp -p 7077:7077 -p 8188:8088 mikelemikelo/cloudera-spark2-kerberos /usr/bin/docker-quickstart
 ```
 
 
