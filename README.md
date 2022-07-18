@@ -30,3 +30,14 @@ service ntpd start
 
 Come back to cloudera manager http://0.0.0.0:7180/  and you should see Hosts icon is green(OK), but all other service seems not started, so we should click restart button like below to restart all service
 
+
+
+## Kerberos set up
+
+Execute:
+
+`/home/cloudera/kerberos`
+
+
+Follow the next guide [Cloudera + Kerberos ](https://chrisyen8341.medium.com/simple-way-to-setup-hadoop-single-node-cluster-with-kerberos-enable-from-docker-1dc0d9803c08) starting on step 8 
+
